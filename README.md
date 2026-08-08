@@ -1,7 +1,7 @@
 # Task Manager API
 
-Nom : SAINTINE Valkens
-Matricule : saiw96112200
+Nom : Pharah Pierre Jules
+Matricule : piep89592000
 Cours : LOG3550
 
 ## Installation

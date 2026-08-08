@@ -7,7 +7,6 @@ app = FastAPI(
     description="Evaluation finale LOG3550",
     version="1.0.0",
 )
-
 class TaskCreate(BaseModel):
     title: str = Field(..., min_length=1, max_length=100)
     description: Optional[str] = Field(default=None, max_length=500)
@@ -39,8 +38,8 @@ def home():
 @app.get("/student", tags=["Etudiant"])
 def student_information():
     return {
-        "name": "SAINTINE Valkens",
-        "student_code": "saiw96112200"
+        "name": "Pharah Pierre Jules",
+        "student_code": "piep89592000"
     }
 
 @app.get("/tasks/completed", response_model=List[Task], tags=["Tasks"])
